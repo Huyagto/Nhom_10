@@ -36,6 +36,18 @@ int main()
 	cin >> x;
 	cout << "Nhap b: ";
 	cin >> y;
+	cout<<"Hieu a - b: ";
+	cout << "Nhap a: ";
+	cin >> x;
+	cout << "Nhap b: ";
+	cin >> y;
+	cout<<"Hieu a-b: "<<hieu(x,y)<<endl;
+	system("pause");
+	cout<<"Thuong a / b: ";
+	cout << "Nhap a: ";
+	cin >> x;
+	cout << "Nhap b: ";
+	cin >> y;
 	cout<<"Hieu a-b: "<<hieu(x,y)<<endl;
 	HelloWorld();
 	return 0;
@@ -61,6 +73,13 @@ int tongson(int n){
 }	
  	return tong;
 }
+<<<<<<< HEAD
 void HelloWorld {
 	cout << "Hello World";
 }
+=======
+
+int hieu(int a,int b){
+	return a-b;
+}
+>>>>>>> 5d353f546c442e1e21c91783e9840ca9df63a216
