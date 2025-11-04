@@ -5,7 +5,7 @@ int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
-void HelloWorld(string );
+void HelloWorld();
 int main()
 {
 	int x,y;
@@ -60,4 +60,7 @@ int tongson(int n){
 		tong+=i;
 }	
  	return tong;
+}
+void HelloWorld {
+	cout << "Hello World";
 }
