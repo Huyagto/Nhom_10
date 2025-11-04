@@ -5,6 +5,7 @@ int tong(int a, int b);
 int hieu(int a, int b);
 int tich(int a, int b);
 float thuong(int a, int b);
+void HelloWorld(string );
 int main()
 {
 	int x,y;
@@ -36,6 +37,7 @@ int main()
 	cout << "Nhap b: ";
 	cin >> y;
 	cout<<"Hieu a-b: "<<hieu(x,y)<<endl;
+	HelloWorld();
 	return 0;
 	
 }
@@ -51,4 +53,11 @@ int tich(int a, int b){
 }
 float thuong(int a, int b){
 	return a / b;
+}
+int tongson(int n){
+	int tong = 0 ;
+	for(int i = 1 ; i<=n ;i++){
+		tong+=i;
+}	
+ 	return tong;
 }
