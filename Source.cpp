@@ -23,6 +23,7 @@ int main()
 	cin >> y;
 	cout<<"Tich = " << tich(x,y) <<endl;
 	system("pause");
+<<<<<<< HEAD
 	cout<<"Hieu a - b: ";
 	cout << "Nhap a: ";
 	cin >> x;
@@ -35,13 +36,21 @@ int main()
 	cin >> x;
 	cout << "Nhap b: ";
 	cin >> y;
+=======
+>>>>>>> 1e23b4cb1c15dd39d597721c1cf606e3e54669f2
 	cout<<"Hieu a - b: ";
 	cout << "Nhap a: ";
 	cin >> x;
 	cout << "Nhap b: ";
 	cin >> y;
 	cout<<"Hieu a-b: "<<hieu(x,y)<<endl;
-
+	system("pause");
+	cout<<"Thuong a / b: ";
+	cout << "Nhap a: ";
+	cin >> x;
+	cout << "Nhap b: ";
+	cin >> y;
+	cout<<"Hieu a-b: "<<hieu(x,y)<<endl;
 	return 0;
 	
 }
@@ -57,6 +66,7 @@ int tich(int a, int b){
 }
 float thuong(int a, int b){
 	return a / b;
+<<<<<<< HEAD
 }
 int tongson(int n){
 	int tong = 0 ;
@@ -69,3 +79,6 @@ int tongson(int n){
 int hieu(int a,int b){
 	return a-b;
 }
+=======
+}
+>>>>>>> 1e23b4cb1c15dd39d597721c1cf606e3e54669f2
