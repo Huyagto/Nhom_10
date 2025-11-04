@@ -73,13 +73,10 @@ int tongson(int n){
 }	
  	return tong;
 }
-<<<<<<< HEAD
-void HelloWorld {
+void HelloWorld() {
 	cout << "Hello World";
 }
-=======
 
 int hieu(int a,int b){
 	return a-b;
 }
->>>>>>> 5d353f546c442e1e21c91783e9840ca9df63a216
