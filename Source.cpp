@@ -23,7 +23,6 @@ int main()
 	cin >> y;
 	cout<<"Tich = " << tich(x,y) <<endl;
 	system("pause");
-<<<<<<< HEAD
 	cout<<"Hieu a - b: ";
 	cout << "Nhap a: ";
 	cin >> x;
@@ -36,8 +35,6 @@ int main()
 	cin >> x;
 	cout << "Nhap b: ";
 	cin >> y;
-=======
->>>>>>> 1e23b4cb1c15dd39d597721c1cf606e3e54669f2
 	cout<<"Hieu a - b: ";
 	cout << "Nhap a: ";
 	cin >> x;
