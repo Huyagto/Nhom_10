@@ -66,7 +66,6 @@ int tich(int a, int b){
 }
 float thuong(int a, int b){
 	return a / b;
-<<<<<<< HEAD
 }
 int tongson(int n){
 	int tong = 0 ;
@@ -79,6 +78,3 @@ int tongson(int n){
 int hieu(int a,int b){
 	return a-b;
 }
-=======
-}
->>>>>>> 1e23b4cb1c15dd39d597721c1cf606e3e54669f2
